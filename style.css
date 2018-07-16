@@ -1,0 +1,101 @@
+.container {
+	width: 300px;
+	margin: auto;
+}
+
+.header {
+	text-align: center;
+	padding: 1px 0px;
+}
+
+.header button {
+	background-color: #337ab7;
+	cursor: pointer;
+	display: inline-block;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.content {
+	display: -webkit-flex; /* Safari */
+	display: -moz-flex; /* Mozilla */
+	display: -ms-flex; /* Explorer */
+    display: flex;
+
+	-webkit-flex-direction: column; /* Safari */
+	-moz-flex-direction: column; /* Mozilla */ 
+	-ms-flex-direction: column; /* Explorer */
+ 	flex-direction: column;
+}
+
+.content > div {
+	border: 1px solid #2e6da4;
+	border-radius: 2px;
+}
+
+.content-book {
+	display: -webkit-flex; /* Safari */
+	display: -moz-flex; /* Mozilla */
+	display: -ms-flex; /* Explorer */
+    display: flex;
+
+	-webkit-flex-direction: column; /* Safari */
+	-moz-flex-direction: column; /* Mozilla */ 
+	-ms-flex-direction: column; /* Explorer */
+ 	flex-direction: column;
+}
+
+.content-book-title {
+	background-color: #b3d8e6;
+
+	display: -webkit-flex; /* Safari */
+	display: -moz-flex; /* Mozilla */
+	display: -ms-flex; /* Explorer */
+    display: flex;
+
+	-webkit-flex-direction: row; /* Safari */
+	-moz-flex-direction: row; /* Mozilla */ 
+	-ms-flex-direction: row; /* Explorer */
+ 	flex-direction: row;
+
+ 	justify-content: space-between;
+}
+
+.content-book-title > div {
+	padding: 5px 10px;
+}
+
+.content-book-title .content-book-number {
+	background-color: #3f5a73;
+	color: #ffffff;
+}
+
+.content-book-title .content-book-main {
+	color: #ffffff;
+}
+
+.content-book-title .content-book-details {
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+}
+
+.content-book-description button {
+	background-color: #337ab7;
+	cursor: pointer;
+	border: 1px solid transparent;
+    border-radius: 4px;
+    color: #ffffff;
+    margin:10px auto;
+    display:block;
+}
+
+.content-book-description > p {
+	margin: 10px 5px;
+}
+
+.content-book-description .content-book-form {
+	margin: 0px 5px;
+}
